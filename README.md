@@ -1,5 +1,9 @@
-<h1 align="center">Hi 👋, I'm Byanjan Behera</h1>
-<h3 align="center">A passionate FullStack Developer from India</h3>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/byanjanstarlord-arch/byanjanstarlord-arch/main/banner.svg" width="100%" />
+</p>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=27&duration=3000&pause=1000&color=79C0FF&center=true&vCenter=true&width=950&lines=Full+Stack+Developer;AI+Enthusiast;Building+Scalable+Digital+Experiences;Passionate+About+Modern+Web+Technologies;Code+Create+Innovate" alt="Typing SVG" />
+</p>
 
 
 # 💫 About Me:
