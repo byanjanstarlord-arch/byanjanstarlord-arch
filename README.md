@@ -1,3 +1,6 @@
+<h1 align="center">Hi 👋, I'm Byanjan Behera</h1>
+<h3 align="center">A passionate FullStack Developer from India</h3>
+<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/byanjanking) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/byanjan-behera) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:palparul39@gmail.com) 
