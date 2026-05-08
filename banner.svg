@@ -1,0 +1,267 @@
+<svg width="1600" height="500" viewBox="0 0 1600 500" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <!-- Animated Background Gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117">
+        <animate attributeName="stop-color"
+          values="#0D1117;#161B22;#0D1117"
+          dur="10s"
+          repeatCount="indefinite"/>
+      </stop>
+
+      <stop offset="100%" stop-color="#1F2937">
+        <animate attributeName="stop-color"
+          values="#1F2937;#21262D;#1F2937"
+          dur="10s"
+          repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Glow Gradient -->
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#79C0FF"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+
+    <!-- Blur -->
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="25"/>
+    </filter>
+
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="500" fill="url(#bgGradient)" />
+
+  <!-- Large Animated Glow -->
+  <circle cx="250" cy="100" r="180" fill="#58A6FF" opacity="0.12" filter="url(#blur)">
+    <animate attributeName="cx"
+      values="250;320;250"
+      dur="10s"
+      repeatCount="indefinite"/>
+
+    <animate attributeName="cy"
+      values="100;140;100"
+      dur="8s"
+      repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="1380" cy="380" r="220" fill="#3FB950" opacity="0.10" filter="url(#blur)">
+    <animate attributeName="cx"
+      values="1380;1320;1380"
+      dur="12s"
+      repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Ambient Glow Pulses -->
+  <circle cx="420" cy="120" r="140" fill="#58A6FF" opacity="0.04" filter="url(#blur)">
+    <animate attributeName="r" values="140;190;140" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.02;0.06;0.02" dur="8s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="1220" cy="340" r="180" fill="#3FB950" opacity="0.03" filter="url(#blur)">
+    <animate attributeName="r" values="180;240;180" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.02;0.05;0.02" dur="10s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Animated Grid Pattern -->
+  <g opacity="0.08">
+
+    <path d="M0 50 H1600" stroke="#FFFFFF">
+      <animateTransform attributeName="transform"
+        type="translate"
+        values="0 0;0 8;0 0"
+        dur="8s"
+        repeatCount="indefinite"/>
+    </path>
+
+    <path d="M0 150 H1600" stroke="#FFFFFF">
+      <animateTransform attributeName="transform"
+        type="translate"
+        values="0 0;0 -6;0 0"
+        dur="10s"
+        repeatCount="indefinite"/>
+    </path>
+
+    <path d="M0 250 H1600" stroke="#FFFFFF">
+      <animateTransform attributeName="transform"
+        type="translate"
+        values="0 0;0 10;0 0"
+        dur="12s"
+        repeatCount="indefinite"/>
+    </path>
+
+    <path d="M0 350 H1600" stroke="#FFFFFF">
+      <animateTransform attributeName="transform"
+        type="translate"
+        values="0 0;0 -8;0 0"
+        dur="9s"
+        repeatCount="indefinite"/>
+    </path>
+
+    <path d="M0 450 H1600" stroke="#FFFFFF">
+      <animateTransform attributeName="transform"
+        type="translate"
+        values="0 0;0 6;0 0"
+        dur="11s"
+        repeatCount="indefinite"/>
+    </path>
+
+  </g>
+
+  <!-- Animated Scanning Lights -->
+  <rect x="-500" y="0" width="280" height="500"
+        fill="url(#textGradient)"
+        opacity="0.04"
+        transform="skewX(-20)">
+
+    <animate attributeName="x"
+      values="-500;1800"
+      dur="7s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+  <rect x="1800" y="0" width="180" height="500"
+        fill="#58A6FF"
+        opacity="0.03"
+        transform="skewX(20)">
+
+    <animate attributeName="x"
+      values="1800;-400"
+      dur="11s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+  <!-- Floating Dots -->
+  <g fill="#79C0FF">
+
+    <circle cx="200" cy="420" r="3">
+      <animate attributeName="cy"
+        values="420;380;420"
+        dur="4s"
+        repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="500" cy="100" r="2">
+      <animate attributeName="cy"
+        values="100;60;100"
+        dur="5s"
+        repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="1250" cy="160" r="3">
+      <animate attributeName="cy"
+        values="160;120;160"
+        dur="6s"
+        repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="1450" cy="320" r="2">
+      <animate attributeName="cy"
+        values="320;280;320"
+        dur="5s"
+        repeatCount="indefinite"/>
+    </circle>
+
+  </g>
+
+  <!-- Decorative Lines -->
+  <line x1="250" y1="130" x2="550" y2="130"
+        stroke="#58A6FF"
+        stroke-width="2"
+        opacity="0.5">
+
+    <animate attributeName="x2"
+      values="550;620;550"
+      dur="6s"
+      repeatCount="indefinite"/>
+
+  </line>
+
+  <line x1="1050" y1="370" x2="1350" y2="370"
+        stroke="#58A6FF"
+        stroke-width="2"
+        opacity="0.5">
+
+    <animate attributeName="x1"
+      values="1050;980;1050"
+      dur="6s"
+      repeatCount="indefinite"/>
+
+  </line>
+
+  <!-- Main Name -->
+  <text x="800"
+        y="220"
+        text-anchor="middle"
+        font-size="82"
+        font-family="Poppins, Arial"
+        font-weight="800"
+        fill="url(#textGradient)"
+        letter-spacing="2">
+
+    BYANJAN BEHERA
+
+    <animate attributeName="opacity"
+      values="0.82;1;0.82"
+      dur="4s"
+      repeatCount="indefinite"/>
+
+    <animateTransform attributeName="transform"
+      type="translate"
+      values="0 0;0 -4;0 0"
+      dur="6s"
+      repeatCount="indefinite"/>
+
+  </text>
+
+  <!-- Animated Shine -->
+  <rect x="-400" y="140" width="250" height="120"
+        fill="white"
+        opacity="0.08"
+        transform="rotate(-20)">
+
+    <animate attributeName="x"
+      values="-400;1800"
+      dur="5s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+  <!-- Subtitle -->
+  <text x="800"
+        y="295"
+        text-anchor="middle"
+        font-size="30"
+        font-family="Poppins, Arial"
+        fill="#D1D5DB"
+        letter-spacing="1">
+
+    Full Stack Developer • AI Enthusiast • Creating Scalable Digital Experiences
+
+  </text>
+
+  <!-- Bottom Motto -->
+  <text x="800"
+        y="370"
+        text-anchor="middle"
+        font-size="22"
+        font-family="Poppins, Arial"
+        fill="#79C0FF"
+        letter-spacing="10">
+
+    CODE • CREATE • INNOVATE
+
+    <animate attributeName="opacity"
+      values="0.5;1;0.5"
+      dur="3s"
+      repeatCount="indefinite"/>
+
+  </text>
+
+</svg>
