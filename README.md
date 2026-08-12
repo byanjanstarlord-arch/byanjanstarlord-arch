@@ -20,64 +20,51 @@
   <tr>
     <!-- LEFT: ID CARD -->
     <td width="38%" align="center" valign="top">
-
-      <img
+    <img
         src="https://raw.githubusercontent.com/byanjanstarlord-arch/byanjanstarlord-arch/main/byanjan_id_card_strap_video_style_shine_fast_fade.svg"
         alt="Byanjan Behera Developer ID Card"
         width="320"
       />
-
     </td>
-
     <!-- RIGHT: ABOUT ME -->
     <td width="62%" valign="top">
-
       <h2>👋 About Me</h2>
-
       <p>
         🚀 <b>Software Developer</b> focused on building scalable, modern,
         and impactful digital products across web, AI, and software systems.
       </p>
-
       <p>
         💡 I enjoy turning ideas into real-world products through clean UI/UX,
         efficient backend architecture, automation, and problem-solving.
       </p>
-
       <p>
         ⚡ My current focus is <b>full-stack development, AI-powered products,
         and practical software engineering</b>.
       </p>
-
       <p>
         🛠️ I work with technologies across
         <b>Django, Node.js, Next.js, React, Flutter, PostgreSQL,
         Supabase, JavaScript</b> and modern AI tooling.
       </p>
-
       <p>
         🏆 I actively participate in hackathons and ideathons,
         building solutions under real-world constraints and collaborating
         with teams to turn ideas into working products.
       </p>
-
       <p>
         🎯 <b>Goal:</b> Build meaningful technology, contribute to open source,
         and keep growing as a developer who solves problems through products.
       </p>
-
       <br>
-
       <h3>💻 Current Focus</h3>
-
       <p>
         <img src="https://img.shields.io/badge/Software%20Development-111111?style=flat-square&logo=code&logoColor=white"/>
         <img src="https://img.shields.io/badge/Full--Stack-F5C400?style=flat-square&logoColor=111111"/>
         <img src="https://img.shields.io/badge/AI%20Products-111111?style=flat-square&logo=openai&logoColor=white"/>
         <img src="https://img.shields.io/badge/Product%20Building-F5C400?style=flat-square"/>
       </p>
-
     </td>
+      
   </tr>
 </table>
 
